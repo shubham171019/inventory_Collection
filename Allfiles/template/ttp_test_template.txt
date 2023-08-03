@@ -1,0 +1,24 @@
+<group name="{{ ID1 }}">
+config firewall policy {{_start_ | _exact_}}
+    edit {{ID1 | DIGIT}}
+        set status {{STATUS}} 
+        set name {{NAME | re(".*?")}}
+        set srcintf {{SRCINTF | re(".*?") | to_list | joinmatches('\s')}}
+        set dstintf {{DSTINTF | re(".*?") | to_list | joinmatches('\s')}}
+        set srcaddr {{SRCADDR | re(".*?") | to_list | joinmatches('\s')}}
+        set dstaddr {{DSTADDR | re(".*?") | to_list | joinmatches('\s')}}
+        set service {{SERVICE | re(".*?") | to_list | joinmatches('\s')}}
+        set nat {{NAT_FLAG}}
+    <group name='abcd'>
+    edit {{ID1 | DIGIT}}
+        set status {{STATUS}} 
+        set name {{NAME | re(".*?")}}
+        set srcintf {{SRCINTF | re(".*?") | to_list | joinmatches('\s')}}
+        set dstintf {{DSTINTF | re(".*?") | to_list | joinmatches('\s')}}
+        set srcaddr {{SRCADDR | re(".*?") | to_list | joinmatches('\s')}}
+        set dstaddr {{DSTADDR | re(".*?") | to_list | joinmatches('\s')}}
+        set service {{SERVICE | re(".*?") | to_list | joinmatches('\s')}}
+        set nat {{NAT_FLAG}}
+    </group>          
+end {{_end_}}    
+</group>

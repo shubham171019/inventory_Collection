@@ -1,0 +1,16 @@
+
+   <div class="main">
+    <div class="col-md-4" style="margin-left:590px">
+        <div class="content-holder" style="background:#ED4F32; border-radius:5px; font-family: arial; ">
+                {% if messages %}
+                    {% for message in messages %}
+                        <div {% if message.tags %} class="alert {{ message.tags }} text-center"{% endif %}>
+                            <h4><b>{{ message }}</b></h4>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+
+        </div>
+      </div>
+    </div>
+    <br>

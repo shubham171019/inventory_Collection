@@ -1,0 +1,23 @@
+{% extends 'base1.html'%}
+{% block content %}
+
+<form method="POST">
+{% csrf_token %}
+   
+  <div class="container main-box" style="padding-left:200px; padding-right:490px">
+      <h2>Login Up</h2>
+      {% comment %} <div style="color: black"> {% endcomment %}
+      {% comment %} {{form.as_p}} {% endcomment %}
+      {% for fm in form %}
+      {{fm.label_tag}} {{fm}} {{fm.error| striptags}}<br><br>
+      {% endfor %}
+
+      {% comment %} </div> {% endcomment %}
+  <button type="Submit" class="btn btn-primary">Submit</button>
+
+     
+       
+  </div>
+</form>
+
+{% endblock %}

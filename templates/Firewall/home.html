@@ -1,0 +1,81 @@
+{% extends 'base1.html'%}
+{% block content %}
+
+
+
+<form method="POST" enctype="multipart/form-data">
+  {% csrf_token %}
+
+  <div class="container main-box" style="padding-left:200px; padding-right:490px">
+      <h2>Firewall Policy Extraction</h2>
+      <div class="mb-3">
+          <br>
+          <h4 >Upload the file Below:</h4>
+          
+          <div style="border-style: groove;"><input type="file" class="form-control-lg" id="customFile" name='customFile' /> </div>
+          
+        </div>
+        <br>
+        <p>Do You want all IP's:</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" onclick="onButtonClick1()">
+          <label class="form-check-label" for="flexRadioDefault1">
+            Yes
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" onclick="onButtonClick()">
+          <label class="form-check-label" for="flexRadioDefault2">
+            No
+          </label>
+        </div>
+        <div style="display:none" id= 'ipaddress'>
+          <label> Please provide the IP address&nbsp;&nbsp;</label>
+          <input type="text" name="ipaddress" id= 'ipaddress1' minlength="7" maxlength="15" size="15" pattern="^((\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$"  style="color:black"><br>
+        </div>
+        <br>
+       
+  <button type="Submit" name="mysubmit"  class="download btn btn-primary" value="Download">Submit</button>
+    <br><br>
+  <div id="message" style="display: none">
+    <div id="message-screen-mask" class="ui-widget-overlay ui-front"></div>
+    <div id="message-text" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable waitmessage">please wait...</div>
+  </div>
+</form>
+
+   
+     
+</div>
+
+
+
+<script type="text/javascript" >
+
+  console.log("Heloow ooo")
+
+  function onButtonClick(){
+    document.getElementById('ipaddress').className="show";
+  }
+  function onButtonClick1(){
+    document.getElementById('ipaddress').className="hide";
+  }
+
+  $(function(){$('.download').click(function() { ShowDownloadMessage(); }); })
+      function ShowDownloadMessage()
+        {   $('#message-text').css({"color" : "green"});
+            $('#message-text').text('YOUR REPORT IS CREATING. PLEASE WAIT...');
+            $('#message').show();
+            console.log("========Your report is creating. Please wait...===========")
+            window.addEventListener('focus', HideDownloadMessage, false);
+      }
+
+      function HideDownloadMessage(){
+            window.removeEventListener('focus', HideDownloadMessage, false);  
+            console.log("========Done..===========")                 
+            $('#message').hide();
+      }
+  
+</script>
+
+{% endblock %}
+

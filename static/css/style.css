@@ -1,0 +1,52 @@
+body {
+    margin:0;
+    padding:0;
+    /* background-size: cover; */
+    font-family: "Trirong", serif;
+    /* background: linear-gradient(210deg, #141e30, #243b55); */
+    background: linear-gradient(210deg, #E6E6FA, #243b55);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+  h5{
+    font-size: 17px;
+
+  }
+  .main-box {
+    /* margin: auto; */
+    margin-top: 70px;
+    margin-bottom: 263px;
+    padding: 50px;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+
+    color: white;
+  }
+
+  .form-group{
+  position:relative;
+  float: left;
+  }
+  .text-error{
+  position:absolute;
+  right:0;
+  top:0px;
+  background:#ED4F32;
+  color:white;
+  border-radius:5px;
+  padding:5px 3px;
+  }
+    
+  .user-error{
+    position:absolute;
+  right:0;
+  top:0px;
+  background:#ED4F32;
+  color:white;
+  border-radius:5px;
+  padding:5px 3px;
+  }

@@ -1,0 +1,436 @@
+{% load static %}
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/> -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script> -->
+
+    
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css.map' %}"/> -->
+
+
+    
+
+     <!-- font api -->
+     <link rel="stylesheet" href="{% static 'css/font.css' %}">
+     <!-- Bootstrap CSS -->
+     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="{% static 'css/bootstrap.min1.css' %}">
+   
+     <!-- Bootstrap js -->
+     <script src="{% static 'js/bootstrap.bundle.min.js' %}" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <!-- <script src="{% static 'js/bootstrap.bundle.min.js.map' %}" ></script> -->
+
+     
+     <!--ajax jquery-->
+     <script src="{% static 'js/Ajaxjquery.min.js' %}"></script>  
+    
+     
+     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+     
+     <!-- Data Table-->
+     <link rel="stylesheet" type="text/css" href="{% static 'css/jquery.dataTables.css' %}">
+     <script type="text/javascript" charset="utf8" src="{% static 'js/jquery.dataTables.js' %}"></script>
+
+     <script src="{% static 'js/Demopage.js' %}"></script> 
+    <script> var loadUrl = '{% url "Ip_and_device_type" %}';</script>
+
+    <title>Network Brahma</title>
+    
+  
+ 
+
+
+  </head>
+  
+  <body>
+
+    <!-- Navbar-->
+    <nav class="navbar navbar-light" style="background-color:#E8E8E8"> 
+      <div class="container-fluid">
+        <span class="navbar-brand" href="">
+          <span><img src="{% static 'images/npci_Logo.svg'%}" alt="" style="position:relative; bottom:65px; margin-right:20px" width="150" height="150" class="d-inline-block align-text-top"></span>
+          {% comment %} <span style="color:#00008b; font-size:30px; text-shadow: 2px 2px #89ABE3FF; padding-right:20px"><b>Network Brahma </b></span> {% endcomment %}
+        </span>
+        <button type="button" class="btn btn-light"><a href="{% url 'log_out' %}">LOG OUT</a></button>
+        
+      </div>
+    </nav>  
+
+    <!--End Navbar-->   
+
+    <div class="main">
+      <div class="col-md-12">
+          <div class="content-holder">
+                  {% if messages %}
+                      {% for message in messages %}
+                          <div {% if message.tags %} class="alert {{ message.tags }} text-center"{% endif %}>
+                              {{ message }}
+                          </div>
+                      {% endfor %}
+                  {% endif %}
+
+          </div>
+        </div>
+      </div>
+      <br>
+
+ 
+ {% if new_dict %}
+ <div class="container">
+ <div class="row">
+      <div class="col-md-12" style="background-color: #e8eae5; padding:10px; box-sizing: border-box; border-radius: 10px; margin-bottom:10px">
+          <div class="table-responsive">
+              <table class="table table-bordered" id="newdatatable"  >
+  
+  
+            <thead>
+            <tr>
+            
+              <th>Ip Address</th>
+              <th>Vlan</th>
+              <th>Root_Bridge</th>
+              <th>Cost</th>
+              <th>Root_ID</th>
+              <th>Bridge_ID</th>
+              <th>Root_MAC_address</th>
+              <th>Bridge_MAC_address</th>
+              <th>Root_Ports</th>
+              <th>Desg_Ports</th>
+              <th>Forwarding_Ports</th>
+              <th>Blocking_Ports</th>
+              <th>No_of_Root_Ports</th>
+              <th>No of Desginated_Ports</th>
+              <th>No_of_Forwarding_Ports</th>
+              <th>No_of_Blocking_Ports</th>
+              <th>Total_ports</th>
+              
+
+            </tr>
+          </thead>
+          
+          <tbody>
+            {% for key,value in new_dict.items %}
+            
+              {% for i,j in value.items %}
+              {% if i != 'username' and i != 'password' and i != 'device_make'%}
+
+              <tr>
+              
+              <td>{{key}} </td>
+              <td>{{i}} </td>
+              <td>{{j.Root_Bridge}} </td>
+              <td>{{j.Cost}} </td>
+              <td>{{j.Root_ID}} </td>
+              <td>{{j.Bridge_ID}}</td>
+              <td>{{j.Root_MAC_address}}</td>
+              <td>{{j.Bridge_MAC_address}}</td>
+              <td>{{j.Root_Ports}}</td>
+              <td>{{j.Desg_Ports}}</td>
+              <td>{{j.Forwarding_Ports}}</td>
+              <td>{{j.Blocking_Ports}}</td>
+              <td>{{j.No_of_Root_Ports}}</td>
+              <td>{{j.Desginated_Ports}}</td>
+              <td>{{j.No_of_Forwarding_Ports}}</td>
+              <td>{{j.No_of_Blocking_Ports}}</td>
+              <td>{{j.Total_ports}}</td>
+              
+              
+              
+            </tr>
+            {% endif %}
+          {% endfor %}
+          {% endfor %}
+          </tbody>
+
+  
+      </table>
+    
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+{% elif spf_dict %}
+<div class="container">
+  <div class="row">
+       <div class="col-md-12" style="background-color: #e8eae5; padding:10px; box-sizing: border-box; border-radius: 10px; margin-bottom:10px">
+           <div class="table-responsive">
+               <table class="table table-bordered" id="newdatatable"  >
+   
+   
+             <thead>
+             <tr>
+             
+               <th>Ip Address</th>
+               <th>Ports working with SFP</th>
+               <th>Speed</th>
+               <th>Number of Ports working successfully with SFP</th>
+               <th>Number of ports not working successfully with SFP</th>
+               <th>Ports Status unconnected/disabled/xcrv absent</th>
+               <th>Total</th>
+              
+               
+ 
+             </tr>
+           </thead>
+           
+           <tbody>
+             {% for key,value in spf_dict.items %}
+             
+               {% comment %} {% for i,j in value.items %} {% endcomment %}
+               {% if value != 'username' and value != 'password' and value != 'device_make'%}
+ 
+               <tr>
+               
+               <td>{{key}} </td>
+               {% comment %} <td>{{value}} </td> {% endcomment %}
+               <td>{{value.SPF_connected_status}} </td>
+               <td>{{value.ports_successfully}} </td>
+               <td>{{value.SPF_unconnected_status}} </td>
+               <td>{{value.ports_unsuccessfully}}</td>
+               <td>{{value.speed}}</td>
+               <td>{{value.Total}}</td>
+               
+               
+               
+               
+             </tr>
+             {% endif %}
+           {% comment %} {% endfor %} {% endcomment %}
+           {% endfor %}
+           </tbody>
+ 
+   
+       </table>
+     
+         </div>
+     </div>
+ </div>
+ </div>
+
+
+
+ {% elif INV_dict %}
+
+ <div class="container">
+  <div class="row">
+       <div class="col-md-12" style="background-color: #e8eae5; padding:10px; box-sizing: border-box; border-radius: 10px; margin-bottom:10px">
+           <div class="table-responsive">
+               <table class="table table-bordered" id="newdatatable"  >
+   
+   
+             <thead>
+             <tr>
+             
+               {% comment %} <th>Make</th>
+               <th>Device Model</th>
+               <th>S.No</th>
+               <th>Ip address</th>
+               <th>Port used</th> {% endcomment %}
+               {% for item in sfp_speed%}
+               <th>{{item}}</th>
+               {% endfor %}
+               
+               
+ 
+             </tr>
+           </thead>
+           
+           <tbody>
+             {% for key,value in INV_dict.items %}
+             
+               {% for i,j in value.items %}
+               {% comment %} {% if value != 'username' and value != 'password' and value != 'device_make'%} {% endcomment %}
+              {% comment %} {% if value != 'username' and value != 'password' and value != 'device_make'%} {% endcomment %}
+ 
+               <tr>
+               
+               {% comment %} <td>{{key}} </td> {% endcomment %}
+               {% comment %} <td>{{i}} </td> {% endcomment %}
+               {% for l,m in j.items %}
+               <td>{{m}} </td>
+               {% comment %} <td>{{value.ports_successfully}} </td>
+               <td>{{value.SPF_unconnected_status}} </td>
+               <td>{{value.ports_unsuccessfully}}</td>
+               <td>{{value.speed}}</td>
+               <td>{{value.Total}}</td> {% endcomment %}
+               
+               {% endfor %}
+               
+               
+             </tr>
+             {% comment %} {% endif %} {% endcomment %}
+           {% endfor %}
+           {% endfor %}
+           </tbody>
+ 
+   
+       </table>
+     
+         </div>
+     </div>
+ </div>
+ </div>
+
+
+
+
+{% else%} 
+
+  
+<form method="POST">
+  {% csrf_token %}
+     
+    <div class="container main-box" style="padding-left:100px; padding-right:50px">
+         <!--First Row start-->
+          <div class="row">
+            <h1>Enter the device details:</h1>
+            <div class="col-md-3 form-group">
+              <h5>Enter the IP:</h5>
+              <input type="text" class="form-control" name="inputtext" placeholder="xx.xx.xx.xx" id="inputtext">
+              {% comment %} <span class="text-error" id="error_lastname"></span> {% endcomment %}
+              {% comment %} <small class= "form-text text-danger ml-2" id="ipError"></small> {% endcomment %}
+            </div>
+            <div class="col-md-3 form-group">
+              <h5>Select the device type:</h5>
+                  <Select class="form-control" name="device_type" id="device_type">
+                      <option value="Default" disabled selected hidden>Choose Option </option>
+                      <option value="Cisco"> Cisco </option>
+                      <option value="Juniper"> Juniper  </option>
+                      
+                  </Select>
+            </div>
+            
+          </div>
+  
+          <div class="row">
+            <div class="col-md-3 form-group">
+              <h5>Enter UserName:</h5>
+              <input type="text" class="form-control" name="inputtext" id="username" placeholder="username">
+              {% comment %} <span class="text-error" id="error_username"></span> {% endcomment %}
+            </div>
+            <div class="col-md-3 form-group">
+              <h5>Enter Password:</h5>
+              <input type="Password" class="form-control" name="inputtext" id="password" placeholder="password">
+            </div>
+            <div class="col-md-2 form-group">
+              <h5>Add device</h5>
+                  <button type="button" id="btn1" class="btn btn-primary" style="margin-left:25px"><b>+</b></button>
+            </div>
+            
+          </div>
+  
+      <!--main table start-->
+      <br>
+      <br>
+  
+  
+      <div class="row tableclass " >  
+          <div class="col-md-6 mytable" style="background-color: #e8eae5; padding:10px; box-sizing: border-box; border-radius: 10px; margin-bottom:10px; margin-left:10px">
+              <table class="table" id="datatable" >
+                  <thead>
+                    <tr>
+                      <th scope="col"># </th>
+                      <th scope="col">Ip </th>
+                      <th scope="col">Device Make</th>
+                      <th scope="col">UserName</th>
+                      <th scope="col">Delete</th>
+                    </tr>
+                  </thead>
+                  <tbody>   
+  
+                  </tbody>
+                </table>
+          </div>  
+          <div><button type="button" class="btn btn-danger" id="deleteAll">Delete all entries</button></div>
+      </div>
+      <!-- Select activity row-->
+      <div class="row">
+        <h3 style="margin-top:20px">Select the Activity Type:</h3>
+          <div class="col-md-3 form-group">
+          <h5>Select Activity</h5>
+            <Select class="form-control" name="Activity_name" id="Activity_name" required>
+              <option value="default" disabled selected hidden>Choose Option </option>
+              <option value="Spanning Tree Protocol"> Spanning Tree Protocol </option>
+              <option value="SFP"> SFP  </option>
+              <option value="Inventory Collection"> Inventory Collection</option>
+              {% comment %} <option value="health Test"> health Test</option> {% endcomment %}
+            </Select>
+          </div>
+      </div>   
+      
+      <!-- button tag-->
+      <div class="row">
+          <div class="col-md-3">
+              <br>
+              <button class="btn btn-primary"  id="Ipsubmit"  value="submit" type="submit">Submit</button>
+          </div>
+      </div>
+  
+      <!--Button for export-->
+      <div id="exports">
+        <div class="row">
+          <div>
+            <br><br>
+            <h4><b> Select the format in which you want to download</b></h4>
+            <br>
+          </div>
+        </div>
+  
+     
+        <div class="row">
+          <input name="myact" type="text" id="myact" value="" hidden>
+    
+          <input name="hiddenJson" type="text" id="hiddenJson" value="" hidden>
+          <div class="col-md-2">
+            <button type="submit" value="submit" id="exportExcel" name="exportExcel" class="btn btn-success">Export to Excel</button>
+          </div>
+          <div class="col-md-2">
+            <button type="submit" value="submit"  id="exportJson" name="exportJson"  class="btn btn-success">Export to Json</button>
+          </div>
+          <div class="col-md-2">
+            <button type="submit" value="submit" id="display" name="display"  class="btn btn-success">Display</button>
+          </div>
+        </div>
+   
+  
+      </div>
+    </div>
+</form> 
+
+  {% endif %}
+  </body>
+
+
+  
+
+</html>
+ 
+   
+  
+
+
+
+

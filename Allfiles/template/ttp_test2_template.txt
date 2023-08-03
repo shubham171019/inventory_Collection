@@ -1,0 +1,13 @@
+<group name="{{ADDRESS_GRP_NAME}}">
+config firewall addrgrp {{_start_ | _exact_}}
+    edit {{ADDRESS_GRP_NAME | re(".*?")}}
+        set member {{MEMBER_OBJ | re(".*?") | to_list | joinmatches('\s')}}
+        set comment {{COMMENT | re(".*?")}}
+    <group name='xyz'>
+    edit {{ADDRESS_GRP_NAME | re(".*?")}}
+        set member {{MEMBER_OBJ | re(".*?") | to_list | joinmatches('\s')}}
+        set comment {{COMMENT | re(".*?")}}
+    </group>    
+end {{_end_}}
+</group>  
+

@@ -1,0 +1,726 @@
+[2022-09-21 11:37:41,157: INFO/MainProcess] Connected to redis://127.0.0.1:6379//
+[2022-09-21 11:37:41,158: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-21 11:37:42,163: INFO/MainProcess] mingle: all alone
+[2022-09-21 11:37:42,182: WARNING/MainProcess] /home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-21 11:37:42,182: INFO/MainProcess] celery@HYDICILEUTEMP55 ready.
+[2022-09-21 11:37:42,327: INFO/MainProcess] Task print_msg_main[8fc3d56b-71ee-4fc8-90b5-4ea744acb966] received
+[2022-09-21 11:37:42,329: WARNING/ForkPoolWorker-6] Celery is working!! Message is Hello
+[2022-09-21 11:37:42,334: INFO/ForkPoolWorker-6] Task print_msg_main[8fc3d56b-71ee-4fc8-90b5-4ea744acb966] succeeded in 0.00576940500013734s: None
+[2022-09-21 11:37:50,000: INFO/MainProcess] Task print_time[ac0d3563-c8ba-4749-b2a7-f5f672a97d5e] received
+[2022-09-21 11:37:50,001: WARNING/ForkPoolWorker-6] Current Time is 11:37:50
+[2022-09-21 11:37:50,003: INFO/ForkPoolWorker-6] Task print_time[ac0d3563-c8ba-4749-b2a7-f5f672a97d5e] succeeded in 0.0015291810000235273s: None
+[2022-09-21 11:38:00,004: INFO/MainProcess] Task print_msg_main[e096f85c-d5ea-47dd-877b-2af620e4f505] received
+[2022-09-21 11:38:00,005: WARNING/ForkPoolWorker-6] Celery is working!! Message is Hello
+[2022-09-21 11:38:00,006: INFO/ForkPoolWorker-6] Task print_msg_main[e096f85c-d5ea-47dd-877b-2af620e4f505] succeeded in 0.001528537000012875s: None
+[2022-09-21 11:38:09,990: INFO/MainProcess] Task get_calculation[112a4c4d-d55e-41ae-a49a-72947cc7e59d] received
+[2022-09-21 11:38:09,992: INFO/ForkPoolWorker-6] Task get_calculation[112a4c4d-d55e-41ae-a49a-72947cc7e59d] succeeded in 0.0010219979999419593s: 30
+[2022-09-21 11:38:09,997: INFO/MainProcess] Task print_time[a969fdb6-739e-423f-b848-2aa0f3a9a784] received
+[2022-09-21 11:38:09,998: WARNING/ForkPoolWorker-6] Current Time is 11:38:09
+[2022-09-21 11:38:09,998: INFO/ForkPoolWorker-6] Task print_time[a969fdb6-739e-423f-b848-2aa0f3a9a784] succeeded in 0.0006653899999946589s: None
+[2022-09-21 11:38:30,007: INFO/MainProcess] Task print_time[83ca6686-0385-4ff8-89b0-5746035404b9] received
+[2022-09-21 11:38:30,008: WARNING/ForkPoolWorker-6] Current Time is 11:38:30
+[2022-09-21 11:38:30,009: INFO/ForkPoolWorker-6] Task print_time[83ca6686-0385-4ff8-89b0-5746035404b9] succeeded in 0.001221317000045019s: None
+[2022-09-21 11:38:49,998: INFO/MainProcess] Task get_calculation[89be58a6-9ebe-4d47-9149-6503337053e6] received
+[2022-09-21 11:38:50,000: INFO/ForkPoolWorker-6] Task get_calculation[89be58a6-9ebe-4d47-9149-6503337053e6] succeeded in 0.0009794410000267817s: 30
+[2022-09-21 11:38:50,006: INFO/MainProcess] Task print_time[096ae93f-7e46-4282-9014-a25106682f38] received
+[2022-09-21 11:38:50,008: WARNING/ForkPoolWorker-6] Current Time is 11:38:50
+[2022-09-21 11:38:50,008: INFO/ForkPoolWorker-6] Task print_time[096ae93f-7e46-4282-9014-a25106682f38] succeeded in 0.0010358970000652334s: None
+[2022-09-21 11:39:00,003: INFO/MainProcess] Task print_msg_main[837330e8-0875-4b2b-8d7c-6da1d783aabe] received
+[2022-09-21 11:39:00,004: WARNING/ForkPoolWorker-6] Celery is working!! Message is Hello
+[2022-09-21 11:39:00,006: INFO/ForkPoolWorker-6] Task print_msg_main[837330e8-0875-4b2b-8d7c-6da1d783aabe] succeeded in 0.0014306540001598478s: None
+[2022-09-21 11:39:10,005: INFO/MainProcess] Task print_time[f9f73c4c-54ee-475d-add6-8e56acb24c54] received
+[2022-09-21 11:39:10,006: WARNING/ForkPoolWorker-6] Current Time is 11:39:10
+[2022-09-21 11:39:10,006: INFO/ForkPoolWorker-6] Task print_time[f9f73c4c-54ee-475d-add6-8e56acb24c54] succeeded in 0.0004908180001166329s: None
+[2022-09-21 11:39:30,008: INFO/MainProcess] Task get_calculation[1387838e-77de-418d-a54c-c9d88666f4ae] received
+[2022-09-21 11:39:30,009: INFO/ForkPoolWorker-6] Task get_calculation[1387838e-77de-418d-a54c-c9d88666f4ae] succeeded in 0.00047994900000958296s: 30
+[2022-09-21 11:39:30,009: INFO/MainProcess] Task print_time[e4329158-0ec4-4ec4-bc09-60db140bd1c4] received
+[2022-09-21 11:39:30,010: WARNING/ForkPoolWorker-6] Current Time is 11:39:30
+[2022-09-21 11:39:30,010: INFO/ForkPoolWorker-6] Task print_time[e4329158-0ec4-4ec4-bc09-60db140bd1c4] succeeded in 0.0003452859998560598s: None
+[2022-09-21 11:39:50,017: INFO/MainProcess] Task print_time[88bea198-3339-43e7-a6fa-7b1f9b67426b] received
+[2022-09-21 11:39:50,018: WARNING/ForkPoolWorker-6] Current Time is 11:39:50
+[2022-09-21 11:39:50,018: INFO/ForkPoolWorker-6] Task print_time[88bea198-3339-43e7-a6fa-7b1f9b67426b] succeeded in 0.00048533299991504464s: None
+[2022-09-21 11:40:00,003: INFO/MainProcess] Task print_msg_main[a88c9005-d4b5-47db-936d-5bd1bac850b0] received
+[2022-09-21 11:40:00,004: WARNING/ForkPoolWorker-6] Celery is working!! Message is Hello
+[2022-09-21 11:40:00,005: INFO/ForkPoolWorker-6] Task print_msg_main[a88c9005-d4b5-47db-936d-5bd1bac850b0] succeeded in 0.0012457360001008055s: None
+[2022-09-21 11:48:54,069: INFO/MainProcess] Connected to redis://127.0.0.1:6379//
+[2022-09-21 11:48:54,070: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-21 11:48:55,076: INFO/MainProcess] mingle: all alone
+[2022-09-21 11:48:55,084: WARNING/MainProcess] /home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-21 11:48:55,084: INFO/MainProcess] celery@HYDICILEUTEMP55 ready.
+[2022-09-21 11:48:55,232: INFO/MainProcess] Task print_msg_main[ca671c1a-9e70-4017-9007-75d8519f5718] received
+[2022-09-21 11:48:55,234: WARNING/ForkPoolWorker-6] Celery is working!! Message is Hello
+[2022-09-21 11:48:55,235: INFO/MainProcess] Task print_time[914b1f70-df62-4e4c-84e2-1416f082ecf9] received
+[2022-09-21 11:48:55,237: INFO/ForkPoolWorker-6] Task print_msg_main[ca671c1a-9e70-4017-9007-75d8519f5718] succeeded in 0.0033282749998306826s: None
+[2022-09-21 11:48:55,238: INFO/MainProcess] Task get_calculation[4cec36ac-14a9-42e5-aaed-7fb5a08d52e7] received
+[2022-09-21 11:48:55,239: WARNING/ForkPoolWorker-7] Current Time is 11:48:55
+[2022-09-21 11:48:55,242: INFO/MainProcess] Task print_time[b96925fd-e5d9-4464-ac1a-fdbb2ae01977] received
+[2022-09-21 11:48:55,242: INFO/ForkPoolWorker-8] Task get_calculation[4cec36ac-14a9-42e5-aaed-7fb5a08d52e7] succeeded in 0.002682409000044572s: 30
+[2022-09-21 11:48:55,243: INFO/ForkPoolWorker-7] Task print_time[914b1f70-df62-4e4c-84e2-1416f082ecf9] succeeded in 0.003574191999859977s: None
+[2022-09-21 11:48:55,243: INFO/MainProcess] Task print_msg_main[897f90f5-fb77-4982-85ef-246436a0add0] received
+[2022-09-21 11:48:55,244: WARNING/ForkPoolWorker-6] Current Time is 11:48:55
+[2022-09-21 11:48:55,244: WARNING/ForkPoolWorker-1] Celery is working!! Message is Hello
+[2022-09-21 11:48:55,245: INFO/ForkPoolWorker-6] Task print_time[b96925fd-e5d9-4464-ac1a-fdbb2ae01977] succeeded in 0.0013704860000416375s: None
+[2022-09-21 11:48:55,245: INFO/MainProcess] Task get_calculation[182463f7-1b85-4a42-a8c8-c3f7a9f2e3b0] received
+[2022-09-21 11:48:55,247: INFO/ForkPoolWorker-1] Task print_msg_main[897f90f5-fb77-4982-85ef-246436a0add0] succeeded in 0.0027300770000238117s: None
+[2022-09-21 11:48:55,248: INFO/MainProcess] Task print_time[02bdac89-35aa-4f1a-ac2d-68c8a4cf636e] received
+[2022-09-21 11:48:55,248: WARNING/ForkPoolWorker-7] Current Time is 11:48:55
+[2022-09-21 11:48:55,249: INFO/ForkPoolWorker-6] Task get_calculation[182463f7-1b85-4a42-a8c8-c3f7a9f2e3b0] succeeded in 0.00041506299999127805s: 30
+[2022-09-21 11:48:55,249: INFO/MainProcess] Task print_msg_main[5940c2f1-ac42-4762-a514-da480a615a6b] received
+[2022-09-21 11:48:55,249: INFO/ForkPoolWorker-7] Task print_time[02bdac89-35aa-4f1a-ac2d-68c8a4cf636e] succeeded in 0.00043602300002021366s: None
+[2022-09-21 11:48:55,249: INFO/MainProcess] Task print_time[8c3f74c6-6840-4924-a838-cf1d55f0a5f7] received
+[2022-09-21 11:48:55,250: WARNING/ForkPoolWorker-6] Celery is working!! Message is Hello
+[2022-09-21 11:48:55,250: WARNING/ForkPoolWorker-7] Current Time is 11:48:55
+[2022-09-21 11:48:55,250: INFO/ForkPoolWorker-6] Task print_msg_main[5940c2f1-ac42-4762-a514-da480a615a6b] succeeded in 0.00047346800010927836s: None
+[2022-09-21 11:48:55,250: INFO/ForkPoolWorker-7] Task print_time[8c3f74c6-6840-4924-a838-cf1d55f0a5f7] succeeded in 0.0004647200000817975s: None
+[2022-09-21 11:48:55,250: INFO/MainProcess] Task get_calculation[89927030-072a-43e7-b667-a8ca3260059e] received
+[2022-09-21 11:48:55,251: INFO/MainProcess] Task print_time[62457844-f280-4eeb-9e03-135184219406] received
+[2022-09-21 11:48:55,251: WARNING/ForkPoolWorker-7] Current Time is 11:48:55
+[2022-09-21 11:48:55,252: INFO/ForkPoolWorker-6] Task get_calculation[89927030-072a-43e7-b667-a8ca3260059e] succeeded in 0.0003358729998126364s: 30
+[2022-09-21 11:48:55,252: INFO/ForkPoolWorker-7] Task print_time[62457844-f280-4eeb-9e03-135184219406] succeeded in 0.0004289710000193736s: None
+[2022-09-21 11:48:55,252: INFO/MainProcess] Task get_calculation[31c44cd6-e328-40d3-be6f-8c88280aea15] received
+[2022-09-21 11:48:55,253: INFO/MainProcess] Task print_msg_main[f042aec1-386e-46bc-949e-b95341b2590f] received
+[2022-09-21 11:48:55,253: WARNING/ForkPoolWorker-7] Celery is working!! Message is Hello
+[2022-09-21 11:48:55,253: INFO/ForkPoolWorker-7] Task print_msg_main[f042aec1-386e-46bc-949e-b95341b2590f] succeeded in 0.0003708219999225548s: None
+[2022-09-21 11:48:55,253: INFO/ForkPoolWorker-6] Task get_calculation[31c44cd6-e328-40d3-be6f-8c88280aea15] succeeded in 0.00035620000016933773s: 30
+[2022-09-21 11:48:55,254: INFO/MainProcess] Task print_time[627b91c5-77d8-41f6-9b32-f096ee5301f2] received
+[2022-09-21 11:48:55,255: INFO/MainProcess] Task get_calculation[be5243d8-3b18-4fb6-b83d-2728490319ed] received
+[2022-09-21 11:48:55,255: WARNING/ForkPoolWorker-6] Current Time is 11:48:55
+[2022-09-21 11:48:55,256: INFO/ForkPoolWorker-7] Task get_calculation[be5243d8-3b18-4fb6-b83d-2728490319ed] succeeded in 0.00033672999984446506s: 30
+[2022-09-21 11:48:55,256: INFO/ForkPoolWorker-6] Task print_time[627b91c5-77d8-41f6-9b32-f096ee5301f2] succeeded in 0.00037220299986984173s: None
+[2022-09-21 11:49:00,005: INFO/MainProcess] Task print_msg_main[f1b603ce-2eb7-43e5-8c5d-a7cb83c699cf] received
+[2022-09-21 11:49:00,006: WARNING/ForkPoolWorker-6] Celery is working!! Message is Hello
+[2022-09-21 11:49:00,007: INFO/ForkPoolWorker-6] Task print_msg_main[f1b603ce-2eb7-43e5-8c5d-a7cb83c699cf] succeeded in 0.00125436999996964s: None
+[2022-09-21 11:49:07,794: INFO/MainProcess] Task print_time[0436e08a-89bb-4a61-8794-5e88a73d88a7] received
+[2022-09-21 11:49:07,794: WARNING/ForkPoolWorker-6] Current Time is 11:49:07
+[2022-09-21 11:49:07,795: INFO/ForkPoolWorker-6] Task print_time[0436e08a-89bb-4a61-8794-5e88a73d88a7] succeeded in 0.0004764780001096369s: None
+[2022-09-21 11:49:27,803: INFO/MainProcess] Task print_time[ba495c36-18e9-498e-bf84-bd8dbf29c0f5] received
+[2022-09-21 11:49:27,806: INFO/MainProcess] Task get_calculation[46d196d2-fc1a-4006-92ec-51b89bb3d604] received
+[2022-09-21 11:49:27,807: WARNING/ForkPoolWorker-6] Current Time is 11:49:27
+[2022-09-21 11:49:27,807: INFO/ForkPoolWorker-7] Task get_calculation[46d196d2-fc1a-4006-92ec-51b89bb3d604] succeeded in 0.0009287160000894801s: 30
+[2022-09-21 11:49:27,808: INFO/ForkPoolWorker-6] Task print_time[ba495c36-18e9-498e-bf84-bd8dbf29c0f5] succeeded in 0.00127264999991894s: None
+[2022-09-21 11:49:47,811: INFO/MainProcess] Task print_time[1e3da595-5702-4990-aa93-6259d207bac6] received
+[2022-09-21 11:49:47,812: WARNING/ForkPoolWorker-6] Current Time is 11:49:47
+[2022-09-21 11:49:47,813: INFO/ForkPoolWorker-6] Task print_time[1e3da595-5702-4990-aa93-6259d207bac6] succeeded in 0.0014923110002200701s: None
+[2022-09-21 11:50:00,005: INFO/MainProcess] Task print_msg_main[62a0c10f-ac6e-4a14-99d4-95a0fa478645] received
+[2022-09-21 11:50:00,007: WARNING/ForkPoolWorker-6] Celery is working!! Message is Hello
+[2022-09-21 11:50:00,008: INFO/ForkPoolWorker-6] Task print_msg_main[62a0c10f-ac6e-4a14-99d4-95a0fa478645] succeeded in 0.0012519619999693532s: None
+[2022-09-21 11:50:07,804: INFO/MainProcess] Task get_calculation[b849280c-6a34-4cfe-a66a-b0ceb8a4124c] received
+[2022-09-21 11:50:07,805: INFO/ForkPoolWorker-6] Task get_calculation[b849280c-6a34-4cfe-a66a-b0ceb8a4124c] succeeded in 0.0005757620001531905s: 30
+[2022-09-21 11:50:07,809: INFO/MainProcess] Task print_time[51c750ad-0351-4b3b-a9a4-117d9b1c5581] received
+[2022-09-21 11:50:07,809: WARNING/ForkPoolWorker-6] Current Time is 11:50:07
+[2022-09-21 11:50:07,810: INFO/ForkPoolWorker-6] Task print_time[51c750ad-0351-4b3b-a9a4-117d9b1c5581] succeeded in 0.00047098899995035026s: None
+[2022-09-21 11:50:27,817: INFO/MainProcess] Task print_time[3dfedc35-0a76-4d1a-8fcd-7046bbb9eeac] received
+[2022-09-21 11:50:27,817: WARNING/ForkPoolWorker-6] Current Time is 11:50:27
+[2022-09-21 11:50:27,818: INFO/ForkPoolWorker-6] Task print_time[3dfedc35-0a76-4d1a-8fcd-7046bbb9eeac] succeeded in 0.0006760350001968618s: None
+[2022-09-21 11:50:47,815: INFO/MainProcess] Task get_calculation[16517d38-7406-4014-9d3a-4bb6d503beb9] received
+[2022-09-21 11:50:47,817: INFO/ForkPoolWorker-6] Task get_calculation[16517d38-7406-4014-9d3a-4bb6d503beb9] succeeded in 0.0012918069996885606s: 30
+[2022-09-21 11:50:47,819: INFO/MainProcess] Task print_time[a70f10d8-0438-4355-beb9-03483c592dcd] received
+[2022-09-21 11:50:47,820: WARNING/ForkPoolWorker-6] Current Time is 11:50:47
+[2022-09-21 11:50:47,821: INFO/ForkPoolWorker-6] Task print_time[a70f10d8-0438-4355-beb9-03483c592dcd] succeeded in 0.001316143000167358s: None
+[2022-09-21 11:51:00,003: INFO/MainProcess] Task print_msg_main[00e13867-237c-476f-a738-0dab4b8ade71] received
+[2022-09-21 11:51:00,005: WARNING/ForkPoolWorker-6] Celery is working!! Message is Hello
+[2022-09-21 11:51:00,006: INFO/ForkPoolWorker-6] Task print_msg_main[00e13867-237c-476f-a738-0dab4b8ade71] succeeded in 0.0012611900001502363s: None
+[2022-09-21 11:51:07,819: INFO/MainProcess] Task print_time[4512414a-8bdc-44ed-92a4-e712746214de] received
+[2022-09-21 11:51:07,821: WARNING/ForkPoolWorker-6] Current Time is 11:51:07
+[2022-09-21 11:51:07,822: INFO/ForkPoolWorker-6] Task print_time[4512414a-8bdc-44ed-92a4-e712746214de] succeeded in 0.0016078790004030452s: None
+[2022-09-21 11:51:27,823: INFO/MainProcess] Task get_calculation[5f2c1bad-b63b-437a-9ca5-07e78f98960a] received
+[2022-09-21 11:51:27,825: INFO/ForkPoolWorker-6] Task get_calculation[5f2c1bad-b63b-437a-9ca5-07e78f98960a] succeeded in 0.0010056390001409454s: 30
+[2022-09-21 11:51:27,825: INFO/MainProcess] Task print_time[6c8d7cb9-519f-4fbc-8040-b9e6b7646cab] received
+[2022-09-21 11:51:27,827: WARNING/ForkPoolWorker-6] Current Time is 11:51:27
+[2022-09-21 11:51:27,827: INFO/ForkPoolWorker-6] Task print_time[6c8d7cb9-519f-4fbc-8040-b9e6b7646cab] succeeded in 0.0009638710002946027s: None
+[2022-09-21 11:52:45,701: INFO/MainProcess] Connected to redis://127.0.0.1:6379//
+[2022-09-21 11:52:45,703: INFO/MainProcess] mingle: searching for neighbors
+[2022-09-21 11:52:46,708: INFO/MainProcess] mingle: all alone
+[2022-09-21 11:52:46,721: WARNING/MainProcess] /home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-09-21 11:52:46,721: INFO/MainProcess] celery@HYDICILEUTEMP55 ready.
+[2022-09-21 11:52:52,470: INFO/MainProcess] Task print_msg_main[7aa9d325-ba78-4a19-b34b-d67cdcb4b0c3] received
+[2022-09-21 11:52:53,114: ERROR/ForkPoolWorker-6] Task print_msg_main[7aa9d325-ba78-4a19-b34b-d67cdcb4b0c3] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:53:02,465: INFO/MainProcess] Task print_msg_main[0b4fd0e5-884c-42f0-8d33-a136743acd41] received
+[2022-09-21 11:53:03,115: ERROR/ForkPoolWorker-6] Task print_msg_main[0b4fd0e5-884c-42f0-8d33-a136743acd41] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:53:12,467: INFO/MainProcess] Task print_msg_main[2ec78eb2-d00c-4e65-b599-009aa41c05d7] received
+[2022-09-21 11:53:13,145: ERROR/ForkPoolWorker-6] Task print_msg_main[2ec78eb2-d00c-4e65-b599-009aa41c05d7] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:53:22,467: INFO/MainProcess] Task print_msg_main[126d5498-4553-4176-b605-0d841bf3c34a] received
+[2022-09-21 11:53:23,213: ERROR/ForkPoolWorker-6] Task print_msg_main[126d5498-4553-4176-b605-0d841bf3c34a] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:53:32,467: INFO/MainProcess] Task print_msg_main[497b3ad8-bdcd-4c8e-89a5-f2101fcd5c10] received
+[2022-09-21 11:53:33,259: ERROR/ForkPoolWorker-6] Task print_msg_main[497b3ad8-bdcd-4c8e-89a5-f2101fcd5c10] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:53:42,467: INFO/MainProcess] Task print_msg_main[7ecb437d-4b2d-43a9-bbb4-b8b08b19c4b1] received
+[2022-09-21 11:53:43,109: ERROR/ForkPoolWorker-6] Task print_msg_main[7ecb437d-4b2d-43a9-bbb4-b8b08b19c4b1] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:53:52,467: INFO/MainProcess] Task print_msg_main[4e268717-ef67-470c-bd9a-7c7218a98d62] received
+[2022-09-21 11:53:53,296: ERROR/ForkPoolWorker-6] Task print_msg_main[4e268717-ef67-470c-bd9a-7c7218a98d62] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:54:02,468: INFO/MainProcess] Task print_msg_main[cc724610-78f4-4522-bef0-c64812744e3e] received
+[2022-09-21 11:54:03,694: ERROR/ForkPoolWorker-6] Task print_msg_main[cc724610-78f4-4522-bef0-c64812744e3e] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:54:12,468: INFO/MainProcess] Task print_msg_main[2bee57f2-e757-4966-9f3a-1832dfe35422] received
+[2022-09-21 11:54:13,144: ERROR/ForkPoolWorker-6] Task print_msg_main[2bee57f2-e757-4966-9f3a-1832dfe35422] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:54:22,468: INFO/MainProcess] Task print_msg_main[f019b68a-c792-4195-b21f-2decd1531e15] received
+[2022-09-21 11:54:23,035: ERROR/ForkPoolWorker-6] Task print_msg_main[f019b68a-c792-4195-b21f-2decd1531e15] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:54:32,467: INFO/MainProcess] Task print_msg_main[b019f6ff-ebde-44ca-af3d-31ab362ec7a9] received
+[2022-09-21 11:54:33,279: ERROR/ForkPoolWorker-6] Task print_msg_main[b019f6ff-ebde-44ca-af3d-31ab362ec7a9] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:54:42,467: INFO/MainProcess] Task print_msg_main[31adaefc-17b2-48f1-8d40-bad7f57f18a5] received
+[2022-09-21 11:54:43,277: ERROR/ForkPoolWorker-6] Task print_msg_main[31adaefc-17b2-48f1-8d40-bad7f57f18a5] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:54:52,468: INFO/MainProcess] Task print_msg_main[e27e3dc1-3c02-403f-8f0e-cabf7515e4f7] received
+[2022-09-21 11:54:53,888: ERROR/ForkPoolWorker-6] Task print_msg_main[e27e3dc1-3c02-403f-8f0e-cabf7515e4f7] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:55:02,468: INFO/MainProcess] Task print_msg_main[dc990608-193a-42e5-a0a5-89e73a60e5da] received
+[2022-09-21 11:55:02,875: ERROR/ForkPoolWorker-6] Task print_msg_main[dc990608-193a-42e5-a0a5-89e73a60e5da] raised unexpected: TeamsWebhookException('Summary or Text is required.')
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 246, in send
+    raise TeamsWebhookException(r.text)
+pymsteams.TeamsWebhookException: Summary or Text is required.
+[2022-09-21 11:55:12,468: INFO/MainProcess] Task print_msg_main[362ecdf5-d67c-484e-9064-e85e5cb93a85] received
+[2022-09-21 11:55:22,468: INFO/MainProcess] Task print_msg_main[f022d747-1704-4289-99c2-92d7ae8e4fa1] received
+[2022-09-21 11:55:22,492: ERROR/ForkPoolWorker-6] Task print_msg_main[362ecdf5-d67c-484e-9064-e85e5cb93a85] raised unexpected: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f4e940>: Failed to establish a new connection: [Errno -2] Name or service not known'))"))
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fdbd6f4e940>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f4e940>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 233, in send
+    r = requests.post(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f4e940>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2022-09-21 11:55:32,469: INFO/MainProcess] Task print_msg_main[0006da2a-bc55-4269-9e7b-29ae880fbb47] received
+[2022-09-21 11:55:32,482: ERROR/ForkPoolWorker-7] Task print_msg_main[f022d747-1704-4289-99c2-92d7ae8e4fa1] raised unexpected: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6fa83a0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"))
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fdbd6fa83a0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6fa83a0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 233, in send
+    r = requests.post(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6fa83a0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2022-09-21 11:55:35,441: ERROR/ForkPoolWorker-6] Task print_msg_main[0006da2a-bc55-4269-9e7b-29ae880fbb47] raised unexpected: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f41c70>: Failed to establish a new connection: [Errno -2] Name or service not known'))"))
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fdbd6f41c70>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f41c70>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 233, in send
+    r = requests.post(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f41c70>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2022-09-21 11:55:42,469: INFO/MainProcess] Task print_msg_main[a221aaf7-9a71-4d39-b0b1-20f3ba41e4c6] received
+[2022-09-21 11:55:44,929: ERROR/ForkPoolWorker-6] Task print_msg_main[a221aaf7-9a71-4d39-b0b1-20f3ba41e4c6] raised unexpected: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd7011880>: Failed to establish a new connection: [Errno -2] Name or service not known'))"))
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fdbd7011880>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd7011880>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 233, in send
+    r = requests.post(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd7011880>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2022-09-21 11:55:52,467: INFO/MainProcess] Task print_msg_main[1ffacc0e-ce61-4ebf-9646-af5a353f9957] received
+[2022-09-21 11:56:02,470: INFO/MainProcess] Task print_msg_main[ad16143f-d435-4873-a8ae-878371eeacc9] received
+[2022-09-21 11:56:02,478: ERROR/ForkPoolWorker-6] Task print_msg_main[1ffacc0e-ce61-4ebf-9646-af5a353f9957] raised unexpected: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f56190>: Failed to establish a new connection: [Errno -2] Name or service not known'))"))
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fdbd6f56190>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f56190>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 233, in send
+    r = requests.post(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f56190>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2022-09-21 11:56:12,470: INFO/MainProcess] Task print_msg_main[144d563c-e84f-400f-bb72-950df517e330] received
+[2022-09-21 11:56:12,482: ERROR/ForkPoolWorker-7] Task print_msg_main[ad16143f-d435-4873-a8ae-878371eeacc9] raised unexpected: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6ec31c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"))
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fdbd6ec31c0>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6ec31c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 233, in send
+    r = requests.post(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6ec31c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2022-09-21 11:56:22,063: ERROR/ForkPoolWorker-6] Task print_msg_main[144d563c-e84f-400f-bb72-950df517e330] raised unexpected: ConnectionError(MaxRetryError("HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f41070>: Failed to establish a new connection: [Errno -2] Name or service not known'))"))
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fdbd6f41070>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f41070>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/networkBrahma/automation/tasks.py", line 56, in print_message
+    myTeamsMessage.send()
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/pymsteams/__init__.py", line 233, in send
+    r = requests.post(
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/shubham.kumar@npci.org.in/Documents/myprojects/envy/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='npciorg.webhook.office.com', port=443): Max retries exceeded with url: /webhookb2/bc0ed667-1971-4581-a704-3a3f92268a75@8ca9216b-1bdf-4056-9775-f5e402a48d32/IncomingWebhook/caffc2be4d75408b81ae6e804bcf837e/2fca531a-51bc-4fc2-bd2f-c1535f6f1021 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fdbd6f41070>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[2022-09-21 11:56:22,470: INFO/MainProcess] Task print_msg_main[c66cdb1c-247f-403a-828b-449bbd419150] received

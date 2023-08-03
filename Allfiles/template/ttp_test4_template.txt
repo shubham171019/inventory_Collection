@@ -1,0 +1,10 @@
+<group name="{{SERVICE_GRP_NAME}}">
+config firewall service group {{_start_ | _exact_}}
+    edit {{SERVICE_GRP_NAME | re(".*?")}}
+        set  member {{SER_OBJ_MEMBERS | re('.*?') | to_list | joinmatches('\s')}}
+    <group name='DEF'>
+    edit {{SERVICE_GRP_NAME | re(".*?")}}
+        set  member {{SER_OBJ_MEMBERS | re('.*?') | to_list | joinmatches('\s')}}
+    </group>    
+end {{_end_}}
+</group>

@@ -1,0 +1,22 @@
+<group name="{{ADDRESS_TYPE}}">
+config firewall address {{_start_ | _exact_}}
+    edit {{ADDRESS_NAME | re(".*?")}}
+        set type {{ADDRESS_TYPE}}
+        set comment {{COMMENT | re(".*?")}}
+        set associated-interface {{ASSOCIATED_INTERFACE}}
+        set subnet {{IP}} {{MASK}}
+        set start-ip {{START_IP}}
+        set end-ip {{END_IP}}
+        set fqdn {{FQDN}}
+    <group name='def'>
+    edit {{ADDRESS_NAME | re(".*?")}}
+        set type {{ADDRESS_TYPE}}
+        set comment {{COMMENT | re(".*?")}}
+        set associated-interface {{ASSOCIATED_INTERFACE}}
+        set subnet {{IP}} {{MASK}}
+        set start-ip {{START_IP}}
+        set end-ip {{END_IP}}
+        set fqdn {{FQDN}}    
+    </group>          
+end {{_end_}}    
+</group>    

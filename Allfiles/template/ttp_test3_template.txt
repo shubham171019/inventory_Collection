@@ -1,0 +1,19 @@
+<group name="{{SERVICE_OBJ_NAME}}">
+config firewall service custom {{_start_ | _exact_}}
+    edit {{SERVICE_OBJ_NAME | re(".*?")}}
+        set protocol {{PROTOCOL | re('.*?')}}
+        set comment {{COMMENT | re(".*?")}}
+        set tcp-portrange {{TCP_PORTRANGE | re('.*?') | to_list | joinmatches('\s')}}
+        set udp-portrange {{UDP_PORTRANGE | re('.*?') | to_list | joinmatches('\s')}}
+        set sctp-portrange {{SCTP_PORTRANGE | re('.*?') | to_list | joinmatches('\s')}}
+    <group name='RST'>
+    edit {{SERVICE_OBJ_NAME | re(".*?")}}
+        set protocol {{PROTOCOL | re('.*?')}}
+        set comment {{COMMENT | re(".*?")}}
+        set tcp-portrange {{TCP_PORTRANGE | re('.*?') | to_list | joinmatches('\s')}}
+        set udp-portrange {{UDP_PORTRANGE | re('.*?') | to_list | joinmatches('\s')}}
+        set sctp-portrange {{SCTP_PORTRANGE | re('.*?') | to_list | joinmatches('\s')}}
+    </group>    
+end {{_end_}}
+</group>          
+

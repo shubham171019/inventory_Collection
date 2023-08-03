@@ -1,0 +1,124 @@
+
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+mgmt0         MGMT CONNECTIVITY  connected routed    full    1000    --         
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Eth1/1        *** CONNECTED_TO_C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/2        *** CONNECTED_TO_C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/3        ***CONNECTED_TO_CH connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/4        ***CONNECTED_TO_CH connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/5        ****CONNECTED_TO_C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/6        ****CONNECTED_TO_C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/7        --                 xcvrAbsen routed    auto    auto    --         
+Eth1/8        **** CONNECTED TO  connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/9        **** CONNECTED TO  connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/10       **** CONNECTED TO  connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/11       **** CONNECTED TO  connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/12       ***CONNECTED_TO_CH connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/13       ***CONNECTED_TO_CH connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/14       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/15       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/16       --                 notconnec 1         auto    auto    10Gbase-SR 
+Eth1/17       ***CONNECTED_TO_CH connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/18       ***CONNECTED_TO_CH connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/19       ***CONNECTED_TO_CH notconnec trunk     auto    auto    QSFP-40G-SR-BD
+Eth1/20       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/21       *** CONNECTED_TO_C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/22       ****CONNECTED_TO_C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/23       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/24       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/25       *** CONNECTED TO C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/26       *** CONNECTED TO C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/27       *** CONNECTED TO C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/28       *** CONNECTED TO C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/29       *** CONNECTED TO   connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/30       *** CONNECTED TO C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/31       --                 disabled  routed    auto    auto    QSFP-40G-SR-BD
+[7m--More--[m
+Eth1/32       *** CONNECTED_TO_C connected trunk     full    40G     QSFP-40G-CSR
+Eth1/33       *** CONNECTED TO C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/34       *** CONNECTED TO C connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/35       *** CONNECTED_TO_C connected trunk     full    40G     WSP-Q40GLR4L
+Eth1/36       *** CONNECTED_TO_C connected trunk     full    40G     WSP-Q40GLR4L
+Eth1/37       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/38       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/39       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/40       --                 disabled  routed    auto    auto    QSFP-40G-SR-BD
+Eth1/41       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/42       --                 xcvrAbsen routed    auto    auto    --         
+Eth1/43       TO-CD2_050101_C931 connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/44       TO-CD2_050102_C931 connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/45       TO-CD2_050205_C931 connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/46       TO-CD2_050206_C931 connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/47       TO-CD2_050211_C931 connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/48       TO-CD2_050212_C931 connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/49       **** CONNECTED_TO_ channelDo trunk     auto    auto    10Gbase-SR 
+Eth1/50       **** CONNECTED_TO_ channelDo trunk     auto    auto    10Gbase-SR 
+Eth1/51       **** CONNECTED_TO_ notconnec trunk     auto    auto    10Gbase-SR 
+Eth1/52       **** CONNECTED TO  connected trunk     full    10G     10Gbase-SR 
+Eth1/53       **** CONNECTED TO  connected trunk     full    10G     10Gbase-SR 
+Eth1/54       **** CONNECTED TO  connected trunk     full    10G     10Gbase-SR 
+Eth1/55       TO-CD2_S0503R10_FO connected trunk     full    10G     10Gbase-SR 
+Eth1/56       TO-CD2_S0503R11_FO connected trunk     full    10G     10Gbase-SR 
+Eth1/57       **** CONNECTED TO  connected trunk     full    10G     10Gbase-SR 
+Eth1/58       **** CONNECTED TO  connected trunk     full    10G     10Gbase-SR 
+Eth1/59       **** CONNECTED TO  connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/60       **** CONNECTED TO  connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/61       **** CONNECTED TO  connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/62       **** CONNECTED TO  connected routed    full    40G     QSFP-40G-SR-BD
+Eth1/63       **** CONNECTED TO  connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/64       **** CONNECTED TO  connected trunk     full    40G     QSFP-40G-SR-BD
+Eth1/65       **** CONNECTED TO  connected trunk     full    10G     10Gbase-SR 
+Eth1/66       **** CONNECTED TO  connected trunk     full    10G     10Gbase-SR 
+
+--------------------------------------------------------------------------------
+Port          Name               Status    Vlan      Duplex  Speed   Type
+--------------------------------------------------------------------------------
+Po1           **** VPC BACK TO B connected trunk     full    40G     --         
+[7m--More--[m
+Po2           **** CONNECTED TO  connected trunk     full    10G     --         
+Po3           **** CONNECTED TO  connected trunk     full    40G     --         
+Po4           **** CONNECTED TO  connected trunk     full    40G     --         
+Po5           **** CONNECTED TO  connected trunk     full    40G     --         
+Po6           **** CONNECTED TO  connected trunk     full    40G     --         
+Po7           ****CONNECTED_TO_C connected trunk     full    40G     --         
+Po8           ***CONNECTED_TO_CH connected trunk     full    40G     --         
+Po9           ***CONNECTED_TO_CH connected trunk     full    40G     --         
+Po10          **** CONNECTED TO  connected trunk     full    40G     --         
+Po11          **** CONNECTED TO  connected trunk     full    40G     --         
+Po12          **** CONNECTED TO  connected trunk     full    40G     --         
+Po13          **** CONNECTED TO  connected trunk     full    40G     --         
+Po14          ***CONNECTED_TO_CH noOperMem trunk     auto    auto    --         
+Po15          *** CONNECTED_TO_C connected trunk     full    40G     --         
+Po16          **** CONNECTED_TO_ connected trunk     full    40G     --         
+Po17          **** CONNECTED_TO_ connected trunk     full    40G     --         
+Po18          *** CONNECTED TO C connected trunk     full    40G     --         
+Po19          *** CONNECTED TO C connected trunk     full    40G     --         
+Po20          **** CONNECTED_TO_ disabled  trunk     auto    auto    --         
+Po21          ***CONNECTED_TO_CD connected trunk     full    40G     --         
+Po22          *** CONNECTED TO C connected trunk     full    40G     --         
+Po23          *** CONNECTED TO C connected trunk     full    40G     --         
+Po24          ***CONNECTED_TO_CD connected trunk     full    40G     --         
+Po25          ***CONNECTED_TO_CD connected trunk     full    40G     --         
+Po26          *** CONNECTED TO C connected trunk     full    40G     --         
+Po27          *** CONNECTED TO C connected trunk     full    40G     --         
+Po28          *** CONNECTED_TO_C connected trunk     full    40G     --         
+Po30          *** CONNECTED_TO_V connected trunk     full    10G     --         
+Po32          **** CONNECTED UPI connected trunk     full    10G     --         
+Po33          **** CONNECTED UPI connected trunk     full    10G     --         
+Po34          **** CONNECTED UPI connected trunk     full    10G     --         
+Po35          **** CONNECTED UPI connected trunk     full    10G     --         
+Po36          *** CONNECTED_TO_C connected trunk     full    40G     --         
+Po41          FROM-E1/43-TO-CD2_ connected trunk     full    40G     --         
+Po42          FROM-E1/44-TO-CD2_ connected trunk     full    40G     --         
+Po43          FROM-E1/45-TO-CD2_ connected trunk     full    40G     --         
+Po44          FROM-E1/46-TO-CD2_ connected trunk     full    40G     --         
+Po45          FROM-E1/47-TO-CD2_ connected trunk     full    40G     --         
+Po46          FROM-E1/48-TO-CD2_ connected trunk     full    40G     --         
+Po55          FROM-E1/55-TO-CD2_ connected trunk     full    10G     --         
+Po56          FROM-E1/56-TO-CD2_ connected trunk     full    10G     --         
